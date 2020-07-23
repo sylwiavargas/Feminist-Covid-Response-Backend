@@ -14,43 +14,23 @@ class Item < ApplicationRecord
   validates_presence_of :title_en, :link
 
   def make_types
-    if self.types.length >= 1 
-      return self.types.map{|t| t.name}
-    else 
-      return nil 
-    end
+    self.types.length >= 1  ? self.types.map{|t| t.name} : nil 
   end
 
   def make_progressive
-    if self.progressive
-      return self.progressive.name
-    else 
-      return nil
-    end
+    self.progressive ? self.progressive.name : nil
   end
 
   def make_date
-    if self.date
-      return self.date 
-    else 
-      return nil 
-    end
+    self.date ? self.date  : nil 
   end
 
   def make_countries
-    if self.countries.length >= 1
-      return self.countries.map{|c| c.name}
-    else 
-      return nil 
-    end
+    self.countries.length >= 1 ? self.countries.map{|c| c.name} : nil 
   end
 
   def make_categories
-    if self.categories.length >= 1
-      return self.categories.map{|c| c.name}
-    else 
-      return nil 
-    end
+    self.categories.length >= 1 ? self.categories.map{|c| c.name} : nil 
   end
 
   # def init
