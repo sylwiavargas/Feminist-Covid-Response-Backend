@@ -68,8 +68,8 @@ Go on [official Rails website](https://gorails.com/setup/windows/10) & follow th
 
 1. Clone the repo and cd into the folder:
 ```
-    $ git clone https://github.com/wedo-org/feministcovidresponse-backend.git
-    $ cd backend-lets-change-the-subject
+    $ git clone git@github.com:sylwiavargas/Feminist-Covid-Response-Backend.git
+    $ cd Feminist-Covid-Response-Backend
 ```
 2. Install dependencies (gems)
 ```
@@ -241,7 +241,7 @@ Pull requests are welcome. Please make sure that your PR is [well-scoped](https:
 For major changes, please open an issue first to discuss what you would like to change. 
 
 ### Known issues
-Visit [issues](https://github.com/luanesouza/backend-lets-change-the-subject/issues) section.
+Visit [issues](https://github.com/sylwiavargas/Feminist-Covid-Response-Backend/issues) section.
 
 ### Contributors
 tba
